@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="jms:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="eu.zdenet.jms-1.0-SNAPSHOT.war">
-      <element id="artifact" artifact-name="jms:war exploded" />
-    </root>
-  </artifact>
-</component>

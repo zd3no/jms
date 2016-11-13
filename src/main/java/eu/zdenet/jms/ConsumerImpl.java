@@ -29,6 +29,9 @@ public class ConsumerImpl implements Consumer {
             connection.start();
             TextMessage message = (TextMessage) consumer.receive();
             System.out.println(message.getText());
+            connection = null;
+            //uncomment above if you want to cause transaction rollback. check that the message queue is not consumed
+            ///subsystem=messaging-activemq/server=default/jms-queue=testQueue:read-attribute(name=message-count)
             connection.stop();
             System.out.println(queue.getQueueName());
         } catch (NamingException e) {

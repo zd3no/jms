@@ -1,6 +1,6 @@
-eu\zdenet\jms\ConsumerImpl.class
-eu\zdenet\jms\RestEndPOint.class
-eu\zdenet\jms\Consumer.class
-eu\zdenet\jms\JmsExample.class
-eu\zdenet\jms\MyApp.class
-eu\zdenet\jms\Producer.class
+eu/zdenet/jms/Consumer.class
+eu/zdenet/jms/Producer.class
+eu/zdenet/jms/ConsumerImpl.class
+eu/zdenet/jms/MyApp.class
+eu/zdenet/jms/RestEndPOint.class
+eu/zdenet/jms/JmsExample.class

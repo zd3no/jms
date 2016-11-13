@@ -23,12 +23,10 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="jms" />
-        <module name="wedding" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="jms" target="1.5" />
-      <module name="wedding" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
