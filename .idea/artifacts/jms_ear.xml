@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="jms:ear">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="eu.zdenet.jms-1.0-SNAPSHOT.ear">
+      <element id="artifact" artifact-name="jms:ear exploded" />
+    </root>
+  </artifact>
+</component>
